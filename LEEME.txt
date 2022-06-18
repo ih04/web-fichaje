@@ -1,0 +1,41 @@
+ejercicio escogido -- foro -- 
+
+
+es un foro muy simple, donde al entrar solo eres invitado, cuentas con pestañas login y registro + la de inicio que estará presente para todos, si te registras verás las pestañas de foro--> aquí se reune la lista de todos los hilos publicados 
+mis hilos--> aquí solo se listan los hilos publicados por el usuario logueado
+
+borrar cuenta --> esto en realidad lo que hace es cambiar el nombre de user a borrado y password también, hay que hacer lo así para que los mensajes e hilos de la persona borrada sigan estando como ocurre normalmente en los foros
+
+logoff --> esto te devolverá al estado de invitado otra vez
+
+
+
+
+
+3 tablas, usuario, hilo y mensaje
+
+
+
+las vistas cambian según si el usuario está logueado o no
+
+
+
+Te dejo la base de datos, la he exportado diréctamente y he añadido el comando para que se cree y utilice la base de datos foro automáticamente
+
+
+
+
+
+
+datos de interes...
+
+
+la mayor parte del código está implementada en el archivo controlador, pero algunas partes las he tenido que programar diréctamente en plantilla
+
+
+
+las fotos de perfil se guardan en imagenes/fotosP
+
+
+
+todo el estilo css procede de web/style.css

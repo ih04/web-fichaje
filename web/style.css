@@ -1,0 +1,221 @@
+body{
+	background: #EEF8FE;
+	color: black;
+	
+}
+
+/*.header{
+	display: grid;
+	 grid-template-columns: auto auto auto auto auto auto auto auto;
+	padding: 0;
+	margin: 0;
+	 text-align: center;
+	 border-top: solid gray 1px;
+	 border-bottom: solid gray 1px;
+}*/
+
+/*LOGO*/
+.padreLogo{
+	/*outline: solid red;*/
+	display: flex;
+	margin-bottom: auto;
+
+}
+.contenedorMenuLogo{
+	display: inline;
+
+	/*outline: solid red;*/
+}
+
+
+.divLogo{
+
+	
+	
+}
+
+.logo{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/*MENÚ*/
+
+.menu{
+	position: relative;
+	bottom: 0;
+	margin-bottom: 0;
+	margin-top: auto;
+
+}
+
+.colorMenu{
+	background:  #eef2fe;
+	
+	
+}
+
+.contenedorMenu{
+	display: flex;
+	flex-direction: column;
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.perfilHeader{
+	text-align: right;
+}
+
+.perfilHeader img{
+	width: 10%;
+}
+
+.boton{
+	color: white;
+	background: black;
+}
+
+.errores{
+	color: red;
+	text-align: center; 
+	align-self: center; 
+	align-content: center; 
+	margin-right: auto; 
+	margin-left: auto;
+}
+
+/*.nombreUsuarioHeader{
+	margin-left: 40px;
+}*/
+
+/*.foro{
+	width: 100%;
+	min-height: 40vh;
+	background: black;
+}*/
+
+
+
+.campoTArea{
+	width: 25%;
+	height: 25vh;
+}
+
+.mensaje{
+	width: 80%;
+	background: black;
+	height: 200px;
+	margin: 30px;
+	
+}
+
+/*.msj{
+	
+}*/
+
+/*.msjProf{
+	width: 20%;
+	
+	display: absolute;
+}
+
+.msjProf img{
+	width: 100%;
+	
+}*/
+
+/*.formMsj{
+	
+	padding: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+}
+.formMsj input{
+	width: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+
+
+
+
+
+
+
+/*ESPACIOS*/
+.margen{
+	margin-top: 10px;
+}
+
+
+.centrar{
+	text-align: center; 
+	/*align-self: center; */
+	/*align-content: center;*/ 
+	margin-right: auto; 
+	margin-left: auto;
+
+}
+
+
+/*TABLAS*/
+.tablas{
+	width: 90vw;
+}
+
+.tablaContenedor{
+	/*outline: solid red;*/
+	width: 90vw;
+	margin-right: auto; 
+	margin-left: auto;
+}
+
+
+/*table{
+   width: 100%;
+   border: 1px solid #000;
+}
+
+td,th{
+
+	 width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+}*/
+
+p{
+
+}
+
+
+a{color: black;}
+a:visited{text-decoration: none;}
+a:link{text-decoration: none;}
+a:hover{text-decoration: none;}
+a:active{
+	text-decoration: none;
+}
